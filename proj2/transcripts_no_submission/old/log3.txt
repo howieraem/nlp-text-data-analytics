@@ -1,0 +1,307 @@
+Loading pre-trained spanBERT from ./pretrained_spanbert
+____
+Parameters:
+Client key  = 
+Engine key  = 
+Relation    = per:cities_of_residence
+Threshold   = 0.7
+Query       = megan repinoe redding
+# of Tuples = 2
+Loading necessary libraries; This should take a minute or so ...
+=========== Iteration: 0 - Query: megan repinoe redding ===========
+URL (1/10: https://www.redding.com/story/news/local/2019/07/08/after-world-cup-win-and-local-controversy-megan-rapinoe-still-praises-hometown-love/1679235001/
+        Fetching text from url ...
+        Webpage length (num characters): 3945
+        Annotating the webpage using spacy...
+        Total # sentences = 31
+        Processed 5 / 31 sentences
+        Processed 10 / 31 sentences
+        Processed 15 / 31 sentences
+        Processed 20 / 31 sentences
+        Processed 25 / 31 sentences
+        Processed 30 / 31 sentences
+        Extracted annotations for  0  out of total  31  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (2/10: https://www.mercurynews.com/2019/07/06/womens-world-cup-hometown-star-out-of-step-in-californias-trump-country/
+        Fetching text from url ...
+        Webpage length (num characters): 13449
+        Annotating the webpage using spacy...
+        Total # sentences = 112
+        Processed 5 / 112 sentences
+        Processed 10 / 112 sentences
+        Processed 15 / 112 sentences
+        Processed 20 / 112 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Rapinoe', 'grew', 'up', 'in', 'Redding', '.']
+                Output Confidence: 0.991) ; Subject: Rapinoe ; Object: Redding
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Rapinoe', 'grew', 'up', 'in', 'Redding', '.']
+                Output Confidence: 0.938) ; Subject: Redding ; Object: Rapinoe
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 112 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Rapinoe', 'grew', 'up', 'in', 'Redding', '.']
+                Output Confidence: 0.991) ; Subject: Rapinoe ; Object: Redding
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Rapinoe', 'grew', 'up', 'in', 'Redding', '.']
+                Output Confidence: 0.938) ; Subject: Redding ; Object: Rapinoe
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+        Processed 30 / 112 sentences
+        Processed 35 / 112 sentences
+        Processed 40 / 112 sentences
+        Processed 45 / 112 sentences
+        Processed 50 / 112 sentences
+        Processed 55 / 112 sentences
+        Processed 60 / 112 sentences
+        Processed 65 / 112 sentences
+        Processed 70 / 112 sentences
+        Processed 75 / 112 sentences
+        Processed 80 / 112 sentences
+        Processed 85 / 112 sentences
+        Processed 90 / 112 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Rapinoe', 'said', 'she', 'is', 'proud', 'of', 'her', 'hometown', ',', 'although', 'she', 'and', 'basketball', 'great', 'Bird', 'are', 'a', 'celebrity', 'sports', 'couple', 'living', 'in', 'liberal', 'Seattle', '.']
+                Output Confidence: 0.964) ; Subject: Rapinoe ; Object: Seattle
+                Adding to set of extracted relations
+                ==========
+        Processed 95 / 112 sentences
+        Processed 100 / 112 sentences
+        Processed 105 / 112 sentences
+        Processed 110 / 112 sentences
+        Extracted annotations for  2  out of total  112  sentences
+        Relations extracted from this website: 3 (Overall: 5)
+URL (3/10: https://www.kqed.org/news/11759612/megan-rapinoes-relationship-with-redding-its-complicated
+        Fetching text from url ...
+        Webpage length (num characters): 5568
+        Annotating the webpage using spacy...
+        Total # sentences = 44
+        Processed 5 / 44 sentences
+        Processed 10 / 44 sentences
+        Processed 15 / 44 sentences
+        Processed 20 / 44 sentences
+        Processed 25 / 44 sentences
+        Processed 30 / 44 sentences
+        Processed 35 / 44 sentences
+        Processed 40 / 44 sentences
+        Extracted annotations for  0  out of total  44  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (4/10: https://www.espn.com/espnw/sports/article/24486574/us-soccer-star-megan-rapinoe-launches-fire-relief-fund-redding-hometown
+        Fetching text from url ...
+        Webpage length (num characters): 7003
+        Annotating the webpage using spacy...
+        Total # sentences = 70
+        Processed 5 / 70 sentences
+        Processed 10 / 70 sentences
+        Processed 15 / 70 sentences
+        Processed 20 / 70 sentences
+        Processed 25 / 70 sentences
+        Processed 30 / 70 sentences
+        Processed 35 / 70 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['"', 'Redding', 'is', 'a', 'pretty', 'small', ',', 'conservative', ',', 'northern', 'California', 'town', '.']
+                Output Confidence: 0.904) ; Subject: Redding ; Object: California
+                Adding to set of extracted relations
+                ==========
+        Processed 40 / 70 sentences
+        Processed 45 / 70 sentences
+        Processed 50 / 70 sentences
+        Processed 55 / 70 sentences
+        Processed 60 / 70 sentences
+        Processed 65 / 70 sentences
+        Processed 70 / 70 sentences
+        Extracted annotations for  1  out of total  70  sentences
+        Relations extracted from this website: 1 (Overall: 1)
+URL (5/10: https://www.sacbee.com/news/local/article232410607.html
+        Fetching text from url ...
+URL (6/10: https://www.biography.com/athlete/megan-rapinoe
+        Fetching text from url ...
+        Webpage length (num characters): 11299
+        Annotating the webpage using spacy...
+        Total # sentences = 109
+        Processed 5 / 109 sentences
+        Processed 10 / 109 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Rapinoe', 'grew', 'up', 'in', 'the', 'conservative', 'town', 'of', 'Redding', 'in', 'northern', 'California', '.']
+                Output Confidence: 0.774) ; Subject: Rapinoe ; Object: California
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 109 sentences
+        Processed 20 / 109 sentences
+        Processed 25 / 109 sentences
+        Processed 30 / 109 sentences
+        Processed 35 / 109 sentences
+        Processed 40 / 109 sentences
+        Processed 45 / 109 sentences
+        Processed 50 / 109 sentences
+        Processed 55 / 109 sentences
+        Processed 60 / 109 sentences
+        Processed 65 / 109 sentences
+        Processed 70 / 109 sentences
+        Processed 75 / 109 sentences
+        Processed 80 / 109 sentences
+        Processed 85 / 109 sentences
+        Processed 90 / 109 sentences
+        Processed 95 / 109 sentences
+        Processed 100 / 109 sentences
+        Processed 105 / 109 sentences
+        Extracted annotations for  1  out of total  109  sentences
+        Relations extracted from this website: 1 (Overall: 1)
+URL (7/10: https://en.wikipedia.org/wiki/Megan_Rapinoe
+        Fetching text from url ...
+        Trimming webpage content from 39622 to 20000 characters
+        Webpage length (num characters): 20000
+        Annotating the webpage using spacy...
+        Total # sentences = 95
+        Processed 5 / 95 sentences
+        Processed 10 / 95 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Tobin', 'Heath', ',', 'and', 'Meghan', 'Klingenberg.[10', ']', '\n ', 'Rapinoe', 'is', 'included', 'in', 'Time', 'magazine', "'s", '100', 'Most', 'Influential', 'People', 'of', '2020.[11', ']', '\n ', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',']
+                Output Confidence: 0.775) ; Subject: Tobin Heath ; Object: Redding
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Tobin', 'Heath', ',', 'and', 'Meghan', 'Klingenberg.[10', ']', '\n ', 'Rapinoe', 'is', 'included', 'in', 'Time', 'magazine', "'s", '100', 'Most', 'Influential', 'People', 'of', '2020.[11', ']', '\n ', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',', 'with', 'her', 'parents', ',', 'Jim', 'and', 'Denise', ',']
+                Output Confidence: 0.868) ; Subject: Tobin Heath ; Object: Jim
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Tobin', 'Heath', ',', 'and', 'Meghan', 'Klingenberg.[10', ']', '\n ', 'Rapinoe', 'is', 'included', 'in', 'Time', 'magazine', "'s", '100', 'Most', 'Influential', 'People', 'of', '2020.[11', ']', '\n ', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',', 'with', 'her', 'parents', ',', 'Jim', 'and', 'Denise', ',']
+                Output Confidence: 0.868) ; Subject: Tobin Heath ; Object: Denise
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['\n ', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',']
+                Output Confidence: 0.973) ; Subject: Redding ; Object: California
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['\n ', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',']
+                Output Confidence: 0.961) ; Subject: California ; Object: Redding
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['\n ', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',', 'with', 'her', 'parents', ',', 'Jim', 'and', 'Denise', ',']
+                Output Confidence: 0.874) ; Subject: Jim ; Object: Redding
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['\n ', 'Rapinoe', 'grew', 'up', 'in', 'Redding', ',', 'California', ',', 'with', 'her', 'parents', ',', 'Jim', 'and', 'Denise', ',']
+                Output Confidence: 0.929) ; Subject: Denise ; Object: Redding
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 95 sentences
+        Processed 20 / 95 sentences
+        Processed 25 / 95 sentences
+        Processed 30 / 95 sentences
+        Processed 35 / 95 sentences
+        Processed 40 / 95 sentences
+        Processed 45 / 95 sentences
+        Processed 50 / 95 sentences
+        Processed 55 / 95 sentences
+        Processed 60 / 95 sentences
+        Processed 65 / 95 sentences
+        Processed 70 / 95 sentences
+        Processed 75 / 95 sentences
+        Processed 80 / 95 sentences
+        Processed 85 / 95 sentences
+        Processed 90 / 95 sentences
+        Processed 95 / 95 sentences
+        Extracted annotations for  1  out of total  95  sentences
+        Relations extracted from this website: 7 (Overall: 7)
+URL (8/10: https://www.teamusa.org/us-soccer/athletes/megan-rapinoe
+        Fetching text from url ...
+URL (9/10: https://krcrtv.com/news/local/students-from-redding-head-to-megan-rapinoe-game-after-the-carr-fire
+        Fetching text from url ...
+        Webpage length (num characters): 0
+URL (10/10: https://www.thedailybeast.com/the-mystical-megachurch-ruling-over-world-cup-soccer-star-megan-rapinoes-hometown
+        Fetching text from url ...
+        Webpage length (num characters): 14329
+        Annotating the webpage using spacy...
+        Total # sentences = 98
+        Processed 5 / 98 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Rapinoe', 'grew', 'up', 'in', 'the', 'small', 'logging', 'town', 'of', 'Redding', ',']
+                Output Confidence: 0.523) ; Subject: Rapinoe ; Object: Redding
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Redding', 'declared', 'July', '21', '“', 'Megan', 'Rapinoe', 'Day', ',', '”', 'named', 'a', 'street', 'in', 'her', 'honor', ',', 'and', 'changed', 'the', 'address', 'of', 'their', 'soccer', 'field', 'to', '“', '15', 'Rapinoe', 'Way', ',']
+                Output Confidence: 0.648) ; Subject: Rapinoe Way ; Object: Redding
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 10 / 98 sentences
+        Processed 15 / 98 sentences
+        Processed 20 / 98 sentences
+        Processed 25 / 98 sentences
+        Processed 30 / 98 sentences
+        Processed 35 / 98 sentences
+        Processed 40 / 98 sentences
+        Processed 45 / 98 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['said', 'Nathan', 'Blaze', ',', 'a', '15', '-', 'year', 'Redding', 'resident', 'and', 'the', 'administrator', 'of', 'two', 'Redding', '-']
+                Output Confidence: 0.786) ; Subject: Nathan Blaze ; Object: Redding
+                Adding to set of extracted relations
+                ==========
+        Processed 50 / 98 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Will', 'Smith', ',', 'a', 'former', 'Bethel', 'member', 'who', 'lives', 'in', 'the', 'Bay', 'Area', ',']
+                Output Confidence: 0.560) ; Subject: Will Smith ; Object: Bethel
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Will', 'Smith', ',', 'a', 'former', 'Bethel', 'member', 'who', 'lives', 'in', 'the', 'Bay', 'Area', ',']
+                Output Confidence: 0.979) ; Subject: Will Smith ; Object: the Bay Area
+                Adding to set of extracted relations
+                ==========
+        Processed 55 / 98 sentences
+        Processed 60 / 98 sentences
+        Processed 65 / 98 sentences
+        Processed 70 / 98 sentences
+        Processed 75 / 98 sentences
+        Processed 80 / 98 sentences
+        Processed 85 / 98 sentences
+        Processed 90 / 98 sentences
+        Processed 95 / 98 sentences
+        Extracted annotations for  2  out of total  98  sentences
+        Relations extracted from this website: 2 (Overall: 5)
+================== ALL RELATIONS for per:cities_of_residence ( 13 ) =================
+
+Confidence: 0.9906389117240906                  | Subject: Rapinoe                      | Object: Redding
+Confidence: 0.9786308407783508                  | Subject: Will Smith                   | Object: the Bay Area
+Confidence: 0.9728560447692871                  | Subject: Redding                      | Object: California
+Confidence: 0.964465320110321                   | Subject: Rapinoe                      | Object: Seattle
+Confidence: 0.9609626531600952                  | Subject: California                   | Object: Redding
+Confidence: 0.9380567669868469                  | Subject: Redding                      | Object: Rapinoe
+Confidence: 0.9290930032730103                  | Subject: Denise                       | Object: Redding
+Confidence: 0.8740436434745789                  | Subject: Jim                  | Object: Redding
+Confidence: 0.8681702613830566                  | Subject: Tobin Heath                  | Object: Jim
+Confidence: 0.8681702613830566                  | Subject: Tobin Heath                  | Object: Denise
+Confidence: 0.786027729511261                   | Subject: Nathan Blaze                 | Object: Redding
+Confidence: 0.7749573588371277                  | Subject: Tobin Heath                  | Object: Redding
+Confidence: 0.7735803127288818                  | Subject: Rapinoe                      | Object: California
+Total # of iterations = 1

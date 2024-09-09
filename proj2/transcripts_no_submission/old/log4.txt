@@ -1,0 +1,449 @@
+Loading pre-trained spanBERT from ./pretrained_spanbert
+____
+Parameters:
+Client key  = 
+Engine key  = 
+Relation    = org:top_members/employees
+Threshold   = 0.7
+Query       = bill gates microsoft
+# of Tuples = 10
+Loading necessary libraries; This should take a minute or so ...
+=========== Iteration: 0 - Query: bill gates microsoft ===========
+URL (1/10: https://en.wikipedia.org/wiki/Bill_Gates
+        Fetching text from url ...
+        Trimming webpage content from 44946 to 20000 characters
+        Webpage length (num characters): 20000
+        Annotating the webpage using spacy...
+        Total # sentences = 117
+        Processed 5 / 117 sentences
+        Processed 10 / 117 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'stepped', 'down', 'as', 'chairman', 'of', 'the', 'board', 'of', 'Microsoft', 'in', 'February', '2014', 'and', 'assumed', 'a', 'new', 'post', 'as', 'technology', 'adviser', 'to', 'support', 'the', 'newly', 'appointed', 'CEO', 'Satya', 'Nadella.[11', ']']
+                Output Confidence: 0.992) ; Subject: Microsoft ; Object: Satya
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['he', 'was', 'surpassed', 'by', 'Amazon', 'founder', 'and', 'CEO', 'Jeff', 'Bezos', ',', 'who', 'had', 'an', 'estimated', 'net', 'worth', 'of', 'US$', '90.6', '\xa0', 'billion', 'compared', 'to', 'Gates', "'s", 'net', 'worth', 'of', 'US$', '89.9', '\xa0', 'billion', 'at', 'the', 'time.[16', ']']
+                Output Confidence: 0.990) ; Subject: Gates ; Object: Jeff Bezos
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 117 sentences
+        Processed 20 / 117 sentences
+        Processed 25 / 117 sentences
+        Processed 30 / 117 sentences
+        Processed 35 / 117 sentences
+        Processed 40 / 117 sentences
+        Processed 45 / 117 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Ballmer', 'succeeded', 'Gates', 'as', 'Microsoft', "'s", 'CEO', 'and', 'maintained', 'that', 'position', 'from', '2000', 'until', 'his', 'resignation', 'in', '2014.[45][46', ']']
+                Output Confidence: 0.990) ; Subject: Microsoft ; Object: Ballmer
+                Adding to set of extracted relations
+                ==========
+        Processed 50 / 117 sentences
+        Processed 55 / 117 sentences
+        Processed 60 / 117 sentences
+        Processed 65 / 117 sentences
+        Processed 70 / 117 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['IBM', 'representative', 'Jack', 'Sams', 'mentioned', 'the', 'licensing', 'difficulties', 'during', 'a', 'subsequent', 'meeting', 'with', 'Gates', 'and', 'asked', 'if', 'Microsoft', 'could', 'provide', 'an', 'operating', 'system', '.']
+                Output Confidence: 0.892) ; Subject: IBM ; Object: Jack Sams
+                Adding to set of extracted relations
+                ==========
+        Processed 75 / 117 sentences
+        Processed 80 / 117 sentences
+        Processed 85 / 117 sentences
+        Processed 90 / 117 sentences
+        Processed 95 / 117 sentences
+        Processed 100 / 117 sentences
+        Processed 105 / 117 sentences
+        Processed 110 / 117 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'stepped', 'down', 'as', 'chairman', 'of', 'Microsoft', 'to', 'become', '"', 'technology', 'advisor', '"', 'at', 'the', 'firm', ',', 'alongside', 'CEO', 'Satya', 'Nadella.[11][94', ']']
+                Output Confidence: 0.878) ; Subject: Gates ; Object: Satya
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'stepped', 'down', 'as', 'chairman', 'of', 'Microsoft', 'to', 'become', '"', 'technology', 'advisor', '"', 'at', 'the', 'firm', ',', 'alongside', 'CEO', 'Satya', 'Nadella.[11][94', ']']
+                Output Confidence: 0.988) ; Subject: Microsoft ; Object: Satya
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+        Processed 115 / 117 sentences
+        Extracted annotations for  5  out of total  117  sentences
+        Relations extracted from this website: 5 (Overall: 6)
+URL (2/10: https://www.britannica.com/biography/Bill-Gates
+        Fetching text from url ...
+        Webpage length (num characters): 5868
+        Annotating the webpage using spacy...
+        Total # sentences = 41
+        Processed 5 / 41 sentences
+        Processed 10 / 41 sentences
+        Processed 15 / 41 sentences
+        Processed 20 / 41 sentences
+        Processed 25 / 41 sentences
+        Processed 30 / 41 sentences
+        Processed 35 / 41 sentences
+        Processed 40 / 41 sentences
+        Extracted annotations for  0  out of total  41  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (3/10: https://www.gatesnotes.com/
+        Fetching text from url ...
+        Webpage length (num characters): 44
+        Annotating the webpage using spacy...
+        Total # sentences = 1
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (4/10: https://www.cnbc.com/2020/03/13/bill-gates-leaves-microsoft-board.html
+        Fetching text from url ...
+        Webpage length (num characters): 2753
+        Annotating the webpage using spacy...
+        Total # sentences = 28
+        Processed 5 / 28 sentences
+        Processed 10 / 28 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', "'s", 'current', 'CEO', ',', 'Satya', 'Nadella', ',']
+                Output Confidence: 0.990) ; Subject: Microsoft ; Object: Satya Nadella
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 28 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['said', 'Microsoft', 'CEO', '\xa0', 'Satya', 'Nadella', '.']
+                Output Confidence: 0.991) ; Subject: Microsoft ; Object: Satya Nadella
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 28 sentences
+        Processed 25 / 28 sentences
+        Extracted annotations for  2  out of total  28  sentences
+        Relations extracted from this website: 2 (Overall: 2)
+URL (5/10: https://www.wsj.com/articles/microsoft-executives-told-bill-gates-to-stop-emailing-a-female-staffer-years-ago-11634559950
+        Fetching text from url ...
+        Webpage length (num characters): 76
+        Annotating the webpage using spacy...
+        Total # sentences = 1
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (6/10: https://twitter.com/billgates
+        Fetching text from url ...
+        Webpage length (num characters): 317
+        Annotating the webpage using spacy...
+        Total # sentences = 4
+        Extracted annotations for  0  out of total  4  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (7/10: https://news.microsoft.com/2006/06/15/microsoft-announces-plans-for-july-2008-transition-for-bill-gates/
+        Fetching text from url ...
+        Webpage length (num characters): 0
+URL (8/10: https://www.wsj.com/articles/microsoft-directors-decided-bill-gates-needed-to-leave-board-due-to-prior-relationship-with-staffer-11621205803
+        Fetching text from url ...
+        Webpage length (num characters): 76
+        Annotating the webpage using spacy...
+        Total # sentences = 1
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (9/10: https://www.nytimes.com/2021/10/18/business/bill-gates-microsoft.html
+        Fetching text from url ...
+        Webpage length (num characters): 2545
+        Annotating the webpage using spacy...
+        Total # sentences = 20
+
+                === Extracted Relation ===
+                Input tokens: ['Advertisement', 'Mr.', 'Gates', ',', 'who', 'at', 'the', 'time', 'was', 'Microsoft', '’s', 'chairman', ',']
+                Output Confidence: 0.992) ; Subject: Microsoft ; Object: Gates
+                Adding to set of extracted relations
+                ==========
+        Processed 5 / 20 sentences
+        Processed 10 / 20 sentences
+        Processed 15 / 20 sentences
+        Processed 20 / 20 sentences
+        Extracted annotations for  1  out of total  20  sentences
+        Relations extracted from this website: 1 (Overall: 1)
+URL (10/10: https://nypost.com/2022/01/14/microsoft-orders-probe-of-bill-gates-harassment-allegations/
+        Fetching text from url ...
+        Webpage length (num characters): 2763
+        Annotating the webpage using spacy...
+        Total # sentences = 22
+        Processed 5 / 22 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', 'Chairman', 'and', 'CEO', 'Satya', 'Nadella', 'said', 'in', 'a', 'statement', '.']
+                Output Confidence: 0.990) ; Subject: Microsoft ; Object: Satya Nadella
+                Adding to set of extracted relations
+                ==========
+        Processed 10 / 22 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Gates', 'stepped', 'down', 'from', 'Microsoft', '’s', 'board', 'in', 'March', '2020', ',']
+                Output Confidence: 0.989) ; Subject: Microsoft ; Object: Gates
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 22 sentences
+        Processed 20 / 22 sentences
+        Extracted annotations for  2  out of total  22  sentences
+        Relations extracted from this website: 2 (Overall: 2)
+================== ALL RELATIONS for org:top_members/employees ( 7 ) =================
+
+Confidence: 0.991912305355072                   | Subject: Microsoft                    | Object: Satya
+Confidence: 0.9918631315231323                  | Subject: Microsoft                    | Object: Gates
+Confidence: 0.9908004999160767                  | Subject: Microsoft                    | Object: Satya Nadella
+Confidence: 0.9902138710021973                  | Subject: Microsoft                    | Object: Ballmer
+Confidence: 0.9897823929786682                  | Subject: Gates                        | Object: Jeff Bezos
+Confidence: 0.8919411301612854                  | Subject: IBM                  | Object: Jack Sams
+Confidence: 0.8777687549591064                  | Subject: Gates                        | Object: Satya
+=========== Iteration: 1 - Query: Microsoft Satya ===========
+URL (1/10: https://news.microsoft.com/exec/satya-nadella/
+        Fetching text from url ...
+        Webpage length (num characters): 0
+URL (2/10: https://en.wikipedia.org/wiki/Satya_Nadella
+        Fetching text from url ...
+        Webpage length (num characters): 5430
+        Annotating the webpage using spacy...
+        Total # sentences = 25
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'is', 'the', 'executive', 'chairman', 'and', 'CEO', 'of', 'Microsoft', ',', 'succeeding', 'Steve', 'Ballmer', 'in', '2014', 'as', 'CEO[2][3', ']']
+                Output Confidence: 0.990) ; Subject: Microsoft ; Object: Steve Ballmer
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'is', 'the', 'executive', 'chairman', 'and', 'CEO', 'of', 'Microsoft', ',', 'succeeding', 'Steve', 'Ballmer', 'in', '2014', 'as', 'CEO[2][3', ']', 'and', 'John', 'W.', 'Thompson', 'in', '2021', 'as', 'chairman.[4][5', ']']
+                Output Confidence: 0.990) ; Subject: Microsoft ; Object: John W. Thompson
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['succeeding', 'Steve', 'Ballmer', 'in', '2014', 'as', 'CEO[2][3', ']', 'and', 'John', 'W.', 'Thompson', 'in', '2021', 'as', 'chairman.[4][5', ']']
+                Output Confidence: 0.530) ; Subject: John W. Thompson ; Object: Steve Ballmer
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['succeeding', 'Steve', 'Ballmer', 'in', '2014', 'as', 'CEO[2][3', ']', 'and', 'John', 'W.', 'Thompson', 'in', '2021', 'as', 'chairman.[4][5', ']', 'Before', 'becoming', 'CEO', ',', 'he', 'was', 'the', 'executive', 'vice', 'president', 'of', 'Microsoft', "'s", 'cloud', 'and', 'enterprise', 'group', ',']
+                Output Confidence: 0.991) ; Subject: Microsoft ; Object: Steve Ballmer
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['and', 'John', 'W.', 'Thompson', 'in', '2021', 'as', 'chairman.[4][5', ']', 'Before', 'becoming', 'CEO', ',', 'he', 'was', 'the', 'executive', 'vice', 'president', 'of', 'Microsoft', "'s", 'cloud', 'and', 'enterprise', 'group', ',']
+                Output Confidence: 0.989) ; Subject: Microsoft ; Object: John W. Thompson
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Bukkapuram', 'Nadella', 'Yugandhar', ',', 'was', 'an', 'Indian', 'Administrative', 'Service', 'officer', 'of', 'the', '1962', 'batch.[12][13][14', ']']
+                Output Confidence: 0.989) ; Subject: Indian Administrative Service ; Object: Bukkapuram Nadella Yugandhar
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Bukkapuram', 'Nadella', 'Yugandhar', ',', 'was', 'an', 'Indian', 'Administrative', 'Service', 'officer', 'of', 'the', '1962', 'batch.[12][13][14', ']', '\n ', 'Nadella', 'attended', 'the', 'Hyderabad', 'Public', 'School', ',']
+                Output Confidence: 0.983) ; Subject: the Hyderabad Public School ; Object: Bukkapuram Nadella Yugandhar
+                Adding to set of extracted relations
+                ==========
+        Processed 5 / 25 sentences
+        Processed 10 / 25 sentences
+        Processed 15 / 25 sentences
+        Processed 20 / 25 sentences
+        Processed 25 / 25 sentences
+        Extracted annotations for  2  out of total  25  sentences
+        Relations extracted from this website: 5 (Overall: 7)
+URL (3/10: https://www.linkedin.com/in/satyanadella
+        Fetching text from url ...
+        Webpage length (num characters): 0
+URL (4/10: https://www.usatoday.com/story/tech/2022/03/01/zain-nadella-son-microsoft-ceo-dies/6978789001/
+        Fetching text from url ...
+        Webpage length (num characters): 2284
+        Annotating the webpage using spacy...
+        Total # sentences = 17
+        Processed 5 / 17 sentences
+        Processed 10 / 17 sentences
+        Processed 15 / 17 sentences
+        Extracted annotations for  0  out of total  17  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (5/10: https://twitter.com/satyanadella?lang=en
+        Fetching text from url ...
+        Webpage length (num characters): 317
+        Annotating the webpage using spacy...
+        Total # sentences = 4
+        Extracted annotations for  0  out of total  4  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (6/10: https://www.microsoft.com/en-us/microsoft-365/blog/2020/04/30/2-years-digital-transformation-2-months/
+        Fetching text from url ...
+        Webpage length (num characters): 8609
+        Annotating the webpage using spacy...
+        Total # sentences = 67
+        Processed 5 / 67 sentences
+        Processed 10 / 67 sentences
+        Processed 15 / 67 sentences
+        Processed 20 / 67 sentences
+        Processed 25 / 67 sentences
+        Processed 30 / 67 sentences
+        Processed 35 / 67 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['\n', '—', 'Julie', 'Sweet', ',', 'Chief', 'Executive', 'Officer', ',', 'Accenture', 'Goodyear', 'Tire', 'Company', ':']
+                Output Confidence: 0.977) ; Subject: Accenture Goodyear Tire Company ; Object: Julie Sweet
+                Adding to set of extracted relations
+                ==========
+        Processed 40 / 67 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['\n', '—', 'Sherri', 'Neubert', ',', 'Vice', 'President', 'and', 'Chief', 'Information', 'Officer', ',', 'Goodyear', 'Tire', 'Company', 'Guildford', 'Technical', 'Community', 'College', ':']
+                Output Confidence: 0.867) ; Subject: Goodyear Tire Company Guildford Technical Community College ; Object: Sherri Neubert
+                Adding to set of extracted relations
+                ==========
+        Processed 45 / 67 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['\n', '—', 'Ron', 'G', 'Horn', ',', 'Chief', 'Information', 'Officer', ',', 'Guildford', 'Technical', 'Community', 'College', 'Calderdale', 'and', 'Huddersfield', 'NHS', 'Foundation', 'Trust', ':']
+                Output Confidence: 0.989) ; Subject: Guildford Technical Community College Calderdale ; Object: Ron G Horn
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['\n', '—', 'Ron', 'G', 'Horn', ',', 'Chief', 'Information', 'Officer', ',', 'Guildford', 'Technical', 'Community', 'College', 'Calderdale', 'and', 'Huddersfield', 'NHS', 'Foundation', 'Trust', ':']
+                Output Confidence: 0.611) ; Subject: Huddersfield NHS Foundation Trust ; Object: Ron G Horn
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 50 / 67 sentences
+        Processed 55 / 67 sentences
+        Processed 60 / 67 sentences
+        Processed 65 / 67 sentences
+        Extracted annotations for  3  out of total  67  sentences
+        Relations extracted from this website: 3 (Overall: 4)
+URL (7/10: https://hbr.org/2021/10/microsofts-satya-nadella-on-flexible-work-the-metaverse-and-the-power-of-empathy
+        Fetching text from url ...
+        Trimming webpage content from 28260 to 20000 characters
+        Webpage length (num characters): 20000
+        Annotating the webpage using spacy...
+        Total # sentences = 224
+
+                === Extracted Relation ===
+                Input tokens: ['editor', 'in', 'chief', 'Adi', 'Ignatius', 'sits', 'down', 'with', 'Microsoft', 'CEO', 'Satya', 'Nadella', 'to', 'discuss', 'rapidly', 'evolving', 'trends', 'in', 'how', 'we', 'collaborate', ',']
+                Output Confidence: 0.988) ; Subject: Microsoft ; Object: Adi Ignatius
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['editor', 'in', 'chief', 'Adi', 'Ignatius', 'sits', 'down', 'with', 'Microsoft', 'CEO', 'Satya', 'Nadella', 'to', 'discuss', 'rapidly', 'evolving', 'trends', 'in', 'how', 'we', 'collaborate', ',']
+                Output Confidence: 0.989) ; Subject: Microsoft ; Object: Satya Nadella
+                Adding to set of extracted relations
+                ==========
+        Processed 5 / 224 sentences
+        Processed 10 / 224 sentences
+        Processed 15 / 224 sentences
+        Processed 20 / 224 sentences
+        Processed 25 / 224 sentences
+        Processed 30 / 224 sentences
+        Processed 35 / 224 sentences
+        Processed 40 / 224 sentences
+        Processed 45 / 224 sentences
+        Processed 50 / 224 sentences
+        Processed 55 / 224 sentences
+        Processed 60 / 224 sentences
+        Processed 65 / 224 sentences
+        Processed 70 / 224 sentences
+        Processed 75 / 224 sentences
+        Processed 80 / 224 sentences
+        Processed 85 / 224 sentences
+        Processed 90 / 224 sentences
+        Processed 95 / 224 sentences
+        Processed 100 / 224 sentences
+        Processed 105 / 224 sentences
+        Processed 110 / 224 sentences
+        Processed 115 / 224 sentences
+        Processed 120 / 224 sentences
+        Processed 125 / 224 sentences
+        Processed 130 / 224 sentences
+        Processed 135 / 224 sentences
+        Processed 140 / 224 sentences
+        Processed 145 / 224 sentences
+        Processed 150 / 224 sentences
+        Processed 155 / 224 sentences
+        Processed 160 / 224 sentences
+        Processed 165 / 224 sentences
+        Processed 170 / 224 sentences
+        Processed 175 / 224 sentences
+        Processed 180 / 224 sentences
+        Processed 185 / 224 sentences
+        Processed 190 / 224 sentences
+        Processed 195 / 224 sentences
+        Processed 200 / 224 sentences
+        Processed 205 / 224 sentences
+        Processed 210 / 224 sentences
+        Processed 215 / 224 sentences
+        Processed 220 / 224 sentences
+        Extracted annotations for  1  out of total  224  sentences
+        Relations extracted from this website: 2 (Overall: 2)
+URL (8/10: https://nypost.com/2022/03/01/microsoft-ceo-satya-nadellas-son-zain-dead-at-26/
+        Fetching text from url ...
+        Webpage length (num characters): 1951
+        Annotating the webpage using spacy...
+        Total # sentences = 18
+
+                === Extracted Relation ===
+                Input tokens: ['\t ', 'Microsoft', 'CEO', 'Satya', 'Nadella', '’s', 'son', ',']
+                Output Confidence: 0.989) ; Subject: Microsoft ; Object: Satya Nadella’s
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['\t ', 'Microsoft', 'CEO', 'Satya', 'Nadella', '’s', 'son', ',', 'Zain', ',']
+                Output Confidence: 0.649) ; Subject: Microsoft ; Object: Zain
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 5 / 18 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Microsoft', '’s', 'chief', 'people', 'officer', 'Kathleen', 'Hogan', 'said', 'in', 'the', 'message', ',']
+                Output Confidence: 0.983) ; Subject: Microsoft ; Object: Kathleen Hogan
+                Adding to set of extracted relations
+                ==========
+        Processed 10 / 18 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['The', 'Microsoft', 'CEO', 'and', 'his', 'wife', ',', 'Anu', ',']
+                Output Confidence: 0.629) ; Subject: Microsoft ; Object: Anu
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Children', '’s', 'Hospital', 'CEO', 'Jeff', 'Sperring', 'said', 'in', 'a', 'statement', 'shared', 'with', 'Microsoft', '’s', 'executive', 'team', '.']
+                Output Confidence: 0.988) ; Subject: Children’s Hospital ; Object: Jeff Sperring
+                Adding to set of extracted relations
+                ==========
+        Processed 15 / 18 sentences
+        Extracted annotations for  3  out of total  18  sentences
+        Relations extracted from this website: 3 (Overall: 5)
+URL (9/10: https://fortune.com/2022/02/04/microsoft-ceo-who-is-satya-nadella-worlds-most-admired-companies/
+        Fetching text from url ...
+        Webpage length (num characters): 0
+URL (10/10: https://www.seattletimes.com/business/zain-nadella-son-of-microsoft-ceo-satya-nadella-dies-at-age-26/
+        Fetching text from url ...
+================== ALL RELATIONS for org:top_members/employees ( 18 ) =================
+
+Confidence: 0.991912305355072                   | Subject: Microsoft                    | Object: Satya
+Confidence: 0.9918631315231323                  | Subject: Microsoft                    | Object: Gates
+Confidence: 0.9909375309944153                  | Subject: Microsoft                    | Object: Steve Ballmer
+Confidence: 0.9908004999160767                  | Subject: Microsoft                    | Object: Satya Nadella
+Confidence: 0.9902138710021973                  | Subject: Microsoft                    | Object: Ballmer
+Confidence: 0.9897823929786682                  | Subject: Gates                        | Object: Jeff Bezos
+Confidence: 0.9897626042366028                  | Subject: Microsoft                    | Object: John W. Thompson
+Confidence: 0.9892473220825195                  | Subject: Indian Administrative Service                        | Object: Bukkapuram Nadella Yugandhar
+Confidence: 0.9889926910400391                  | Subject: Guildford Technical Community College Calderdale                     | Object: Ron G Horn
+Confidence: 0.9889209866523743                  | Subject: Microsoft                    | Object: Satya Nadella’s
+Confidence: 0.9884392023086548                  | Subject: Children’s Hospital                  | Object: Jeff Sperring
+Confidence: 0.987701416015625                   | Subject: Microsoft                    | Object: Adi Ignatius
+Confidence: 0.9833526015281677                  | Subject: the Hyderabad Public School                  | Object: Bukkapuram Nadella Yugandhar
+Confidence: 0.9831407070159912                  | Subject: Microsoft                    | Object: Kathleen Hogan
+Confidence: 0.9766421914100647                  | Subject: Accenture Goodyear Tire Company                      | Object: Julie Sweet
+Confidence: 0.8919411301612854                  | Subject: IBM                  | Object: Jack Sams
+Confidence: 0.8777687549591064                  | Subject: Gates                        | Object: Satya
+Confidence: 0.8667659163475037                  | Subject: Goodyear Tire Company Guildford Technical Community College                  | Object: Sherri Neubert
+Total # of iterations = 2

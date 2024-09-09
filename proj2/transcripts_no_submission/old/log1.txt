@@ -1,0 +1,562 @@
+Loading pre-trained spanBERT from ./pretrained_spanbert
+____
+Parameters:
+Client key  = 
+Engine key  = 
+Relation    = per:schools_attended
+Threshold   = 0.7
+Query       = mark zuckerberg harvard
+# of Tuples = 17
+Loading necessary libraries; This should take a minute or so ...
+=========== Iteration: 0 - Query: mark zuckerberg harvard ===========
+URL (1/10: https://en.wikipedia.org/wiki/Mark_Zuckerberg
+        Fetching text from url ...
+        Trimming webpage content from 35107 to 20000 characters
+        Webpage length (num characters): 20000
+        Annotating the webpage using spacy...
+        Total # sentences = 103
+        Processed 5 / 103 sentences
+        Processed 10 / 103 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['He', 'attended', 'high', 'school', 'at', 'Ardsley', 'High', 'School', 'before', 'transferring', 'to', 'Phillips', 'Exeter', 'Academy', '.']
+                Output Confidence: 0.677) ; Subject: Ardsley High School ; Object: Phillips Exeter Academy
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 15 / 103 sentences
+        Processed 20 / 103 sentences
+        Processed 25 / 103 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['An', 'earlier', 'inspiration', 'for', 'Facebook', 'may', 'have', 'come', 'from', 'Phillips', 'Exeter', 'Academy', ',', 'the', 'prep', 'school', 'from', 'which', 'Zuckerberg', 'graduated', 'in', '2002', '.']
+                Output Confidence: 0.836) ; Subject: Zuckerberg ; Object: Facebook
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['An', 'earlier', 'inspiration', 'for', 'Facebook', 'may', 'have', 'come', 'from', 'Phillips', 'Exeter', 'Academy', ',', 'the', 'prep', 'school', 'from', 'which', 'Zuckerberg', 'graduated', 'in', '2002', '.']
+                Output Confidence: 0.969) ; Subject: Zuckerberg ; Object: Phillips Exeter Academy
+                Adding to set of extracted relations
+                ==========
+        Processed 30 / 103 sentences
+        Processed 35 / 103 sentences
+        Processed 40 / 103 sentences
+        Processed 45 / 103 sentences
+        Processed 50 / 103 sentences
+        Processed 55 / 103 sentences
+        Processed 60 / 103 sentences
+        Processed 65 / 103 sentences
+        Processed 70 / 103 sentences
+        Processed 75 / 103 sentences
+        Processed 80 / 103 sentences
+        Processed 85 / 103 sentences
+        Processed 90 / 103 sentences
+        Processed 95 / 103 sentences
+        Processed 100 / 103 sentences
+        Extracted annotations for  1  out of total  103  sentences
+        Relations extracted from this website: 2 (Overall: 3)
+URL (2/10: https://news.harvard.edu/gazette/story/2017/05/mark-zuckerbergs-speech-as-written-for-harvards-class-of-2017/
+        Fetching text from url ...
+        Trimming webpage content from 20948 to 20000 characters
+        Webpage length (num characters): 20000
+        Annotating the webpage using spacy...
+        Total # sentences = 253
+        Processed 5 / 253 sentences
+        Processed 10 / 253 sentences
+        Processed 15 / 253 sentences
+        Processed 20 / 253 sentences
+        Processed 25 / 253 sentences
+        Processed 30 / 253 sentences
+        Processed 35 / 253 sentences
+        Processed 40 / 253 sentences
+        Processed 45 / 253 sentences
+        Processed 50 / 253 sentences
+        Processed 55 / 253 sentences
+        Processed 60 / 253 sentences
+        Processed 65 / 253 sentences
+        Processed 70 / 253 sentences
+        Processed 75 / 253 sentences
+        Processed 80 / 253 sentences
+        Processed 85 / 253 sentences
+        Processed 90 / 253 sentences
+        Processed 95 / 253 sentences
+        Processed 100 / 253 sentences
+        Processed 105 / 253 sentences
+        Processed 110 / 253 sentences
+        Processed 115 / 253 sentences
+        Processed 120 / 253 sentences
+        Processed 125 / 253 sentences
+        Processed 130 / 253 sentences
+        Processed 135 / 253 sentences
+        Processed 140 / 253 sentences
+        Processed 145 / 253 sentences
+        Processed 150 / 253 sentences
+        Processed 155 / 253 sentences
+        Processed 160 / 253 sentences
+        Processed 165 / 253 sentences
+        Processed 170 / 253 sentences
+        Processed 175 / 253 sentences
+        Processed 180 / 253 sentences
+        Processed 185 / 253 sentences
+        Processed 190 / 253 sentences
+        Processed 195 / 253 sentences
+        Processed 200 / 253 sentences
+        Processed 205 / 253 sentences
+        Processed 210 / 253 sentences
+        Processed 215 / 253 sentences
+        Processed 220 / 253 sentences
+        Processed 225 / 253 sentences
+        Processed 230 / 253 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['I', 'met', 'David', 'Razu', 'Aznar', ',', 'graduating', 'from', 'the', 'Kennedy', 'School', 'today', '.']
+                Output Confidence: 0.992) ; Subject: David Razu Aznar ; Object: the Kennedy School
+                Adding to set of extracted relations
+                ==========
+        Processed 235 / 253 sentences
+        Processed 240 / 253 sentences
+        Processed 245 / 253 sentences
+        Processed 250 / 253 sentences
+        Extracted annotations for  1  out of total  253  sentences
+        Relations extracted from this website: 1 (Overall: 1)
+URL (3/10: https://www.cnbc.com/2017/05/25/mark-zuckerberg-returns-to-the-harvard-dorm-where-facebook-was-born.html
+        Fetching text from url ...
+        Webpage length (num characters): 2398
+        Annotating the webpage using spacy...
+        Total # sentences = 19
+        Processed 5 / 19 sentences
+        Processed 10 / 19 sentences
+        Processed 15 / 19 sentences
+        Extracted annotations for  0  out of total  19  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (4/10: https://www.forbes.com/sites/susanadams/2021/12/08/zuckerberg-and-chan-pledge-500-million-of-their-facebook-fortune-to-create-an-ai-institute-at-harvard/
+        Fetching text from url ...
+        Webpage length (num characters): 3170
+        Annotating the webpage using spacy...
+        Total # sentences = 26
+
+                === Extracted Relation ===
+                Input tokens: ['Zuckerberg', 'and', 'Chan', 'met', 'at', 'Harvard', '.']
+                Output Confidence: 0.769) ; Subject: Zuckerberg ; Object: Harvard
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Zuckerberg', 'and', 'Chan', 'met', 'at', 'Harvard', '.']
+                Output Confidence: 0.987) ; Subject: Chan ; Object: Harvard
+                Adding to set of extracted relations
+                ==========
+        Processed 5 / 26 sentences
+
+                === Extracted Relation ===
+                Input tokens: [' ', 'Zuckerberg', 'and', 'Chan', ',', 'who', 'met', 'at', 'a', 'Harvard', 'fraternity', 'party', 'in', '2003', ',']
+                Output Confidence: 0.756) ; Subject: Chan ; Object: Harvard
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+        Processed 10 / 26 sentences
+        Processed 15 / 26 sentences
+        Processed 20 / 26 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Chan', ',', '36', ',', 'graduated', 'from', 'Harvard', 'in', '2007', '.']
+                Output Confidence: 0.993) ; Subject: Chan ; Object: Harvard
+                Adding to set of extracted relations
+                ==========
+        Processed 25 / 26 sentences
+        Extracted annotations for  2  out of total  26  sentences
+        Relations extracted from this website: 3 (Overall: 4)
+URL (5/10: https://www.thedailybeast.com/mark-zuckerberg-at-harvard-the-truth-behind-the-social-network
+        Fetching text from url ...
+        Webpage length (num characters): 16274
+        Annotating the webpage using spacy...
+        Total # sentences = 136
+        Processed 5 / 136 sentences
+        Processed 10 / 136 sentences
+        Processed 15 / 136 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['founders', 'and', 'students', 'who', 'were', 'at', 'Harvard', 'when', 'Zuckerberg', 'and', 'I', 'were', 'classmates', ',']
+                Output Confidence: 0.953) ; Subject: Zuckerberg ; Object: Harvard
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 136 sentences
+        Processed 25 / 136 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['As', 'a', 'student', 'at', 'Phillips', 'Exeter', 'Academy', ',', 'Mark', 'had', 'created', 'an', 'adaptive', 'music', 'player', '(']
+                Output Confidence: 0.942) ; Subject: Mark ; Object: Phillips Exeter Academy
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['says', 'one', 'of', 'Mark', '’s', 'classmates', 'at', 'both', 'Exeter', 'and', 'Harvard', ',']
+                Output Confidence: 0.570) ; Subject: Mark ; Object: Harvard
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 30 / 136 sentences
+        Processed 35 / 136 sentences
+        Processed 40 / 136 sentences
+        Processed 45 / 136 sentences
+        Processed 50 / 136 sentences
+        Processed 55 / 136 sentences
+        Processed 60 / 136 sentences
+        Processed 65 / 136 sentences
+        Processed 70 / 136 sentences
+        Processed 75 / 136 sentences
+        Processed 80 / 136 sentences
+        Processed 85 / 136 sentences
+        Processed 90 / 136 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['according', 'to', 'Zuckerberg', '—', 'about', '55', 'percent', 'of', 'Harvard', 'undergraduates', '.']
+                Output Confidence: 0.720) ; Subject: Zuckerberg ; Object: Harvard
+                Duplicate with lower confidence than existing record. Ignoring this.
+                ==========
+        Processed 95 / 136 sentences
+        Processed 100 / 136 sentences
+        Processed 105 / 136 sentences
+        Processed 110 / 136 sentences
+        Processed 115 / 136 sentences
+        Processed 120 / 136 sentences
+        Processed 125 / 136 sentences
+        Processed 130 / 136 sentences
+        Processed 135 / 136 sentences
+        Extracted annotations for  2  out of total  136  sentences
+        Relations extracted from this website: 2 (Overall: 4)
+URL (6/10: https://www.thecrimson.com/article/2004/6/10/mark-e-zuckerberg-06-the-whiz/
+        Fetching text from url ...
+        Webpage length (num characters): 11214
+        Annotating the webpage using spacy...
+        Total # sentences = 114
+        Processed 5 / 114 sentences
+        Processed 10 / 114 sentences
+        Processed 15 / 114 sentences
+        Processed 20 / 114 sentences
+        Processed 25 / 114 sentences
+        Processed 30 / 114 sentences
+        Processed 35 / 114 sentences
+        Processed 40 / 114 sentences
+        Processed 45 / 114 sentences
+        Processed 50 / 114 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Zuckerberg', 'attended', 'local', 'Ardsley', 'High', 'School', 'until', 'his', 'junior', 'year', ',', 'when', 'he', 'transferred', 'to', 'Phillips', 'Exeter', 'Academy', '.']
+                Output Confidence: 0.969) ; Subject: Zuckerberg ; Object: Phillips Exeter Academy
+                Adding to set of extracted relations
+                ==========
+        Processed 55 / 114 sentences
+        Processed 60 / 114 sentences
+        Processed 65 / 114 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Adam', 'D’Angelo', '(', 'now', 'a', 'student', 'at', 'CalTech', 'and', 'still', 'a', 'close', 'friend', ')']
+                Output Confidence: 0.779) ; Subject: Adam D’Angelo ; Object: CalTech
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['now', 'a', 'student', 'at', 'CalTech', 'and', 'still', 'a', 'close', 'friend', ')', 'Zuckerberg', 'designed', 'a', 'program', 'that', 'learned', 'a', 'listener', '’s', 'musical', 'tastes', ',']
+                Output Confidence: 0.954) ; Subject: Zuckerberg ; Object: CalTech
+                Adding to set of extracted relations
+                ==========
+        Processed 70 / 114 sentences
+        Processed 75 / 114 sentences
+        Processed 80 / 114 sentences
+        Processed 85 / 114 sentences
+        Processed 90 / 114 sentences
+        Processed 95 / 114 sentences
+        Processed 100 / 114 sentences
+        Processed 105 / 114 sentences
+        Processed 110 / 114 sentences
+        Extracted annotations for  2  out of total  114  sentences
+        Relations extracted from this website: 3 (Overall: 3)
+URL (7/10: https://www.britannica.com/biography/Mark-Zuckerberg
+        Fetching text from url ...
+        Webpage length (num characters): 2854
+        Annotating the webpage using spacy...
+        Total # sentences = 20
+
+                === Extracted Relation ===
+                Input tokens: ['Mark', 'Zuckerberg', 'dropped', 'out', 'of', 'college', 'in', '2004', 'to', 'devote', 'himself', 'to', 'Facebook', ',', 'which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—']
+                Output Confidence: 0.925) ; Subject: Mark Zuckerberg ; Object: Harvard University
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Mark', 'Zuckerberg', 'dropped', 'out', 'of', 'college', 'in', '2004', 'to', 'devote', 'himself', 'to', 'Facebook', ',', 'which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—', 'Eduardo', 'Saverin', ',']
+                Output Confidence: 0.569) ; Subject: Eduardo Saverin ; Object: Facebook
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Mark', 'Zuckerberg', 'dropped', 'out', 'of', 'college', 'in', '2004', 'to', 'devote', 'himself', 'to', 'Facebook', ',', 'which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—', 'Eduardo', 'Saverin', ',', 'Andrew', 'McCollum', ',', 'Dustin', 'Moskovitz', ',']
+                Output Confidence: 0.826) ; Subject: Dustin Moskovitz ; Object: Facebook
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Mark', 'Zuckerberg', 'dropped', 'out', 'of', 'college', 'in', '2004', 'to', 'devote', 'himself', 'to', 'Facebook', ',', 'which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—', 'Eduardo', 'Saverin', ',', 'Andrew', 'McCollum', ',', 'Dustin', 'Moskovitz', ',', 'and', 'Chris', 'Hughes', '.']
+                Output Confidence: 0.819) ; Subject: Chris Hughes ; Object: Facebook
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—', 'Eduardo', 'Saverin', ',']
+                Output Confidence: 0.974) ; Subject: Eduardo Saverin ; Object: Harvard University
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—', 'Eduardo', 'Saverin', ',', 'Andrew', 'McCollum', ',']
+                Output Confidence: 0.978) ; Subject: Andrew McCollum ; Object: Harvard University
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—', 'Eduardo', 'Saverin', ',', 'Andrew', 'McCollum', ',', 'Dustin', 'Moskovitz', ',']
+                Output Confidence: 0.982) ; Subject: Dustin Moskovitz ; Object: Harvard University
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['which', 'he', 'had', 'founded', 'at', 'Harvard', 'University', 'with', 'four', 'fellow', 'students', 'there', '—', 'Eduardo', 'Saverin', ',', 'Andrew', 'McCollum', ',', 'Dustin', 'Moskovitz', ',', 'and', 'Chris', 'Hughes', '.']
+                Output Confidence: 0.964) ; Subject: Chris Hughes ; Object: Harvard University
+                Adding to set of extracted relations
+                ==========
+        Processed 5 / 20 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['After', 'attending', 'Phillips', 'Exeter', 'Academy', ',', 'Zuckerberg', 'enrolled', 'at', 'Harvard', 'University', 'in', '2002', '.']
+                Output Confidence: 0.974) ; Subject: Zuckerberg ; Object: Phillips Exeter Academy
+                Adding to set of extracted relations
+                ==========
+
+                === Extracted Relation ===
+                Input tokens: ['Zuckerberg', 'enrolled', 'at', 'Harvard', 'University', 'in', '2002', '.']
+                Output Confidence: 0.488) ; Subject: Zuckerberg ; Object: Harvard University
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 10 / 20 sentences
+        Processed 15 / 20 sentences
+        Processed 20 / 20 sentences
+        Extracted annotations for  2  out of total  20  sentences
+        Relations extracted from this website: 8 (Overall: 10)
+URL (8/10: https://www.npr.org/sections/thetwo-way/2017/05/26/530159142/mark-zuckerberg-tells-harvard-graduates-to-embrace-globalism-a-sense-of-purpose
+        Fetching text from url ...
+        Webpage length (num characters): 3348
+        Annotating the webpage using spacy...
+        Total # sentences = 25
+        Processed 5 / 25 sentences
+        Processed 10 / 25 sentences
+        Processed 15 / 25 sentences
+        Processed 20 / 25 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Zuckerberg', 'launched', 'Facebook', 'from', 'his', 'Harvard', 'dorm', 'in', '2004', ',']
+                Output Confidence: 0.690) ; Subject: Zuckerberg ; Object: Harvard
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 25 / 25 sentences
+        Extracted annotations for  0  out of total  25  sentences
+        Relations extracted from this website: 0 (Overall: 1)
+URL (9/10: https://www.bbc.com/news/world-us-canada-40053163
+        Fetching text from url ...
+        Webpage length (num characters): 3830
+        Annotating the webpage using spacy...
+        Total # sentences = 31
+        Processed 5 / 31 sentences
+        Processed 10 / 31 sentences
+        Processed 15 / 31 sentences
+        Processed 20 / 31 sentences
+        Processed 25 / 31 sentences
+        Processed 30 / 31 sentences
+        Extracted annotations for  0  out of total  31  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (10/10: https://nymag.com/intelligencer/2016/06/mark-zuckerberg-harvard-2006-reunion.html
+        Fetching text from url ...
+        Webpage length (num characters): 18466
+        Annotating the webpage using spacy...
+        Total # sentences = 129
+        Processed 5 / 129 sentences
+        Processed 10 / 129 sentences
+        Processed 15 / 129 sentences
+        Processed 20 / 129 sentences
+        Processed 25 / 129 sentences
+        Processed 30 / 129 sentences
+        Processed 35 / 129 sentences
+        Processed 40 / 129 sentences
+        Processed 45 / 129 sentences
+        Processed 50 / 129 sentences
+        Processed 55 / 129 sentences
+        Processed 60 / 129 sentences
+        Processed 65 / 129 sentences
+        Processed 70 / 129 sentences
+        Processed 75 / 129 sentences
+        Processed 80 / 129 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['by', 'Harvard', 'graduate', 'Sheryl', 'Sandberg', '.']
+                Output Confidence: 0.979) ; Subject: Sheryl Sandberg ; Object: Harvard
+                Adding to set of extracted relations
+                ==========
+        Processed 85 / 129 sentences
+        Processed 90 / 129 sentences
+        Processed 95 / 129 sentences
+        Processed 100 / 129 sentences
+        Processed 105 / 129 sentences
+        Processed 110 / 129 sentences
+        Processed 115 / 129 sentences
+        Processed 120 / 129 sentences
+        Processed 125 / 129 sentences
+        Extracted annotations for  1  out of total  129  sentences
+        Relations extracted from this website: 1 (Overall: 1)
+================== ALL RELATIONS for per:schools_attended ( 16 ) =================
+
+Confidence: 0.9932754635810852                  | Subject: Chan                 | Object: Harvard
+Confidence: 0.9921025037765503                  | Subject: David Razu Aznar                     | Object: the Kennedy School
+Confidence: 0.9816163778305054                  | Subject: Dustin Moskovitz                     | Object: Harvard University
+Confidence: 0.9789482951164246                  | Subject: Sheryl Sandberg                      | Object: Harvard
+Confidence: 0.9782669544219971                  | Subject: Andrew McCollum                      | Object: Harvard University
+Confidence: 0.974037766456604                   | Subject: Eduardo Saverin                      | Object: Harvard University
+Confidence: 0.9737498760223389                  | Subject: Zuckerberg                   | Object: Phillips Exeter Academy
+Confidence: 0.963668167591095                   | Subject: Chris Hughes                 | Object: Harvard University
+Confidence: 0.9541848301887512                  | Subject: Zuckerberg                   | Object: CalTech
+Confidence: 0.9525323510169983                  | Subject: Zuckerberg                   | Object: Harvard
+Confidence: 0.9421364665031433                  | Subject: Mark                 | Object: Phillips Exeter Academy
+Confidence: 0.9253529906272888                  | Subject: Mark Zuckerberg                      | Object: Harvard University
+Confidence: 0.8358919024467468                  | Subject: Zuckerberg                   | Object: Facebook
+Confidence: 0.8260018229484558                  | Subject: Dustin Moskovitz                     | Object: Facebook
+Confidence: 0.8189159631729126                  | Subject: Chris Hughes                 | Object: Facebook
+Confidence: 0.778795599937439                   | Subject: Adam D’Angelo                        | Object: CalTech
+=========== Iteration: 1 - Query: Chan Harvard ===========
+URL (1/10: https://www.hsph.harvard.edu/
+        Fetching text from url ...
+        Webpage length (num characters): 739
+        Annotating the webpage using spacy...
+        Total # sentences = 1
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (2/10: https://en.wikipedia.org/wiki/Harvard_T.H._Chan_School_of_Public_Health
+        Fetching text from url ...
+        Webpage length (num characters): 3083
+        Annotating the webpage using spacy...
+        Total # sentences = 15
+        Processed 5 / 15 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['run', 'by', 'Harvard', 'School', 'of', 'Public', 'Health', 'alumnus', 'Gerald', 'Chan', ',']
+                Output Confidence: 0.668) ; Subject: Gerald Chan ; Object: Harvard School of Public Health
+                Confidence is lower than threshold confidence. Ignoring this.
+                ==========
+        Processed 10 / 15 sentences
+        Processed 15 / 15 sentences
+        Extracted annotations for  0  out of total  15  sentences
+        Relations extracted from this website: 0 (Overall: 1)
+URL (3/10: https://www.hsph.harvard.edu/admissions/degree-programs/
+        Fetching text from url ...
+        Webpage length (num characters): 8740
+        Annotating the webpage using spacy...
+        Total # sentences = 62
+        Processed 5 / 62 sentences
+        Processed 10 / 62 sentences
+        Processed 15 / 62 sentences
+        Processed 20 / 62 sentences
+        Processed 25 / 62 sentences
+        Processed 30 / 62 sentences
+        Processed 35 / 62 sentences
+        Processed 40 / 62 sentences
+        Processed 45 / 62 sentences
+        Processed 50 / 62 sentences
+        Processed 55 / 62 sentences
+        Processed 60 / 62 sentences
+        Extracted annotations for  0  out of total  62  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (4/10: https://alumni.sph.harvard.edu/
+        Fetching text from url ...
+        Webpage length (num characters): 3231
+        Annotating the webpage using spacy...
+        Total # sentences = 32
+        Processed 5 / 32 sentences
+        Processed 10 / 32 sentences
+        Processed 15 / 32 sentences
+        Processed 20 / 32 sentences
+        Processed 25 / 32 sentences
+        Processed 30 / 32 sentences
+        Extracted annotations for  0  out of total  32  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (5/10: https://www.hsph.harvard.edu/magazine/magazine_article/the-story-of-t-h-chan/
+        Fetching text from url ...
+        Webpage length (num characters): 4303
+        Annotating the webpage using spacy...
+        Total # sentences = 40
+        Processed 5 / 40 sentences
+        Processed 10 / 40 sentences
+        Processed 15 / 40 sentences
+
+                === Extracted Relation ===
+                Input tokens: ['Gerald', 'was', 'studying', 'at', 'Harvard', 'School', 'of', 'Public', 'Health', '.']
+                Output Confidence: 0.990) ; Subject: Gerald ; Object: Harvard School of Public Health
+                Adding to set of extracted relations
+                ==========
+        Processed 20 / 40 sentences
+        Processed 25 / 40 sentences
+        Processed 30 / 40 sentences
+        Processed 35 / 40 sentences
+        Processed 40 / 40 sentences
+        Extracted annotations for  1  out of total  40  sentences
+        Relations extracted from this website: 1 (Overall: 1)
+URL (6/10: https://hcmph.sph.harvard.edu/hcmac/
+        Fetching text from url ...
+        Webpage length (num characters): 1443
+        Annotating the webpage using spacy...
+        Total # sentences = 8
+        Processed 5 / 8 sentences
+        Extracted annotations for  0  out of total  8  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (7/10: https://www.hsph.harvard.edu/faculty-research/
+        Fetching text from url ...
+        Webpage length (num characters): 0
+URL (8/10: https://news.harvard.edu/gazette/story/2021/07/harvard-chan-school-professor-discusses-delta-variant/
+        Fetching text from url ...
+        Webpage length (num characters): 5427
+        Annotating the webpage using spacy...
+        Total # sentences = 39
+        Processed 5 / 39 sentences
+        Processed 10 / 39 sentences
+        Processed 15 / 39 sentences
+        Processed 20 / 39 sentences
+        Processed 25 / 39 sentences
+        Processed 30 / 39 sentences
+        Processed 35 / 39 sentences
+        Extracted annotations for  0  out of total  39  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (9/10: https://hcsra.sph.harvard.edu/
+        Fetching text from url ...
+        Webpage length (num characters): 32
+        Annotating the webpage using spacy...
+        Total # sentences = 1
+        Extracted annotations for  0  out of total  1  sentences
+        Relations extracted from this website: 0 (Overall: 0)
+URL (10/10: https://engage.sph.harvard.edu/
+        Fetching text from url ...
+        Webpage length (num characters): 0
+================== ALL RELATIONS for per:schools_attended ( 17 ) =================
+
+Confidence: 0.9932754635810852                  | Subject: Chan                 | Object: Harvard
+Confidence: 0.9921025037765503                  | Subject: David Razu Aznar                     | Object: the Kennedy School
+Confidence: 0.9903839230537415                  | Subject: Gerald                       | Object: Harvard School of Public Health
+Confidence: 0.9816163778305054                  | Subject: Dustin Moskovitz                     | Object: Harvard University
+Confidence: 0.9789482951164246                  | Subject: Sheryl Sandberg                      | Object: Harvard
+Confidence: 0.9782669544219971                  | Subject: Andrew McCollum                      | Object: Harvard University
+Confidence: 0.974037766456604                   | Subject: Eduardo Saverin                      | Object: Harvard University
+Confidence: 0.9737498760223389                  | Subject: Zuckerberg                   | Object: Phillips Exeter Academy
+Confidence: 0.963668167591095                   | Subject: Chris Hughes                 | Object: Harvard University
+Confidence: 0.9541848301887512                  | Subject: Zuckerberg                   | Object: CalTech
+Confidence: 0.9525323510169983                  | Subject: Zuckerberg                   | Object: Harvard
+Confidence: 0.9421364665031433                  | Subject: Mark                 | Object: Phillips Exeter Academy
+Confidence: 0.9253529906272888                  | Subject: Mark Zuckerberg                      | Object: Harvard University
+Confidence: 0.8358919024467468                  | Subject: Zuckerberg                   | Object: Facebook
+Confidence: 0.8260018229484558                  | Subject: Dustin Moskovitz                     | Object: Facebook
+Confidence: 0.8189159631729126                  | Subject: Chris Hughes                 | Object: Facebook
+Confidence: 0.778795599937439                   | Subject: Adam D’Angelo                        | Object: CalTech
+Total # of iterations = 2
