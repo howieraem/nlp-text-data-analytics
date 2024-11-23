@@ -1,4 +1,4 @@
-# Text Data Analytics Projects
+# Text Data Analytics and Natural Language Processing Projects
 
 ## Authors:
 - J Lin
